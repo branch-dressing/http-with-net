@@ -1,0 +1,24 @@
+{
+  "name": "http-with-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelpdurham/http-with-net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelpdurham/http-with-net/issues"
+  },
+  "homepage": "https://github.com/joelpdurham/http-with-net#readme"
+}
