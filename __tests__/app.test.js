@@ -32,7 +32,7 @@ describe('createResponse', () => {
     });
     it('html with an h1 and the word blue', () => {
         return request(app)
-            .get('/Blue')
+            .get('/blue')
             .then(res => {
                 expect(res.text).toEqual('<h1>Blue</h1>');
             });
