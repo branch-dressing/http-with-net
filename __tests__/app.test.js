@@ -16,4 +16,11 @@ describe('createResponse', () => {
                 expect(res.text).toEqual('post');
             });
     });
+    it('html with an h1 and the word red', () => {
+        return request(app)
+            .get('/red')
+            .then(res => {
+                expect(res.text).toEqual('<h1>Red</h1>');
+            });
+    });
 });
