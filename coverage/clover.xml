@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575934235953" clover="3.2.0">
-  <project timestamp="1575934235953" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="13" coveredconditionals="9" methods="4" coveredmethods="4" elements="35" coveredelements="31" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
+<coverage generated="1575934306191" clover="3.2.0">
+  <project timestamp="1575934306191" name="All files">
+    <metrics statements="20" coveredstatements="19" conditionals="17" coveredconditionals="12" methods="4" coveredmethods="4" elements="41" coveredelements="35" complexity="0" loc="20" ncloc="20" packages="2" files="3" classes="3"/>
     <package name="lib">
-      <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="14" coveredstatements="13" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
       <file name="app.js" path="/Users/joelpatrickdurham/alchemy/career-track/week-02/http-with-net/lib/app.js">
-        <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="14" coveredstatements="13" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -16,8 +16,10 @@
         <line num="9" count="1" type="stmt"/>
         <line num="14" count="2" type="cond" truecount="4" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="3" falsecount="1"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
