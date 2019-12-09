@@ -23,4 +23,18 @@ describe('createResponse', () => {
                 expect(res.text).toEqual('<h1>Red</h1>');
             });
     });
+    it('html with an h1 and the word green', () => {
+        return request(app)
+            .get('/green')
+            .then(res => {
+                expect(res.text).toEqual('<h1>Green</h1>');
+            });
+    });
+    it('html with an h1 and the word blue', () => {
+        return request(app)
+            .get('/Blue')
+            .then(res => {
+                expect(res.text).toEqual('<h1>Blue</h1>');
+            });
+    });
 });
