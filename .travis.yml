@@ -1,4 +1,6 @@
-language: node_js
-node_js: "node"
-services: mongodb
-env: MONGODB_URI=mongodb://localhost:27017/travis
+language: "node_js"
+node_js: "stable"
+before_script:
+  - npm i eslint esm jsdom
+script:
+  - npx eslint .
